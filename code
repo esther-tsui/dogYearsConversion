@@ -1,0 +1,13 @@
+var dogAge = 6 //let's say a dog's age is 6
+var earlyYears = 0 //the declaration of "var earlyYears" is for the dog's first 2 years
+var laterYears = 0 //assign value to 0 because we haven't calculate the value yet
+var humanYears = 0 //assign value to 0 because we 1)don't know the earlyYears value, 2)don't know the laterYears value
+
+earlyYears = 21
+//assign the value 21 is because "The first two years of a dog’s life count as 21 human years."
+laterYears = (dogAge - 2) * 4
+//*above equation explains “Each following year counts as 4 human years.”
+
+humanYears = earlyYears + laterYears
+
+print("My name is ABC! Ruff ruff, I am \(humanYears) years old in human years.")
